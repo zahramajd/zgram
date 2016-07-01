@@ -1,0 +1,90 @@
+.contact{
+    max-height:300px ;
+    padding:20px;
+}
+.contact-title{
+    float: right;
+}
+.contact img{
+    width: 60px;
+    height: 60px;
+}
+.container{
+    padding: 20px;
+}
+.title img{
+    width: 60px;
+    height: 60px;
+}
+.members{
+    width: 30%;
+    float: right;
+}
+
+.selected {
+    background-color: rgb(225, 189, 232);
+    color:white;
+    border-radius: 7px;
+}
+.searchResult{
+    list-style: none;
+}
+.searchResult li:hover{
+    background-color: #9acfea;
+}
+
+.chat
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat li
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat li.left .chat-body
+{
+    margin-left: 80px;
+}
+
+.chat li.right .chat-body
+{
+    margin-right: 80px;
+}
+
+
+.chat li .chat-body p
+{
+    margin: 0;
+    color: #777777;
+}
+
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+.uname{
+    font-family: Arial;
+    color: #2b669a;
+    font-size: x-large;
+}

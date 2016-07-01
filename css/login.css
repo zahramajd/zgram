@@ -1,0 +1,10 @@
+html,body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+}
+.login-form{
+    border: solid #00bfff;
+    padding: 15px ;
+}
